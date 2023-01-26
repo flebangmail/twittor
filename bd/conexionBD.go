@@ -3,10 +3,10 @@ package bd
 import (
 	"context"
 	"log"
-
+ 
 	"go.mongodb.org/mongo-driver/mongo"
 	"go.mongodb.org/mongo-driver/mongo/options"
-)
+) 
 
 var MongoCN = ConectarBD()
 var clientOptions = options.Client().ApplyURI("mongodb+srv://usuario:usuario@cluster0.iuftzrk.mongodb.net/?retryWrites=true&w=majority")
